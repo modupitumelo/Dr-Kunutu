@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+  }
+
+  body {
+    @apply bg-brand-50 text-ink-900 font-sans antialiased;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-serif tracking-tight text-ink-950;
+    text-wrap: balance;
+  }
+
+  ::selection {
+    @apply bg-brand-200 text-brand-950;
+  }
+
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-400 ring-offset-2 ring-offset-brand-50;
+  }
+}
+
+@layer components {
+  .container-px {
+    @apply mx-auto w-full max-w-6xl px-5 sm:px-8 lg:px-10;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.22em] text-brand-600;
+  }
+
+  .section-title {
+    @apply text-3xl font-semibold leading-[1.15] sm:text-4xl;
+  }
+
+  .link-underline {
+    @apply relative inline-flex items-center gap-1.5 font-semibold text-brand-600 transition-colors hover:text-brand-800;
+  }
+
+  .card-soft {
+    @apply rounded-2xl border border-brand-100 bg-white shadow-[0_1px_2px_rgba(81,3,42,0.04),0_10px_28px_-14px_rgba(236,31,111,0.18)];
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, rgba(236, 31, 111, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(236, 31, 111, 0.05) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+}

@@ -1,0 +1,17 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Dr Kunutu OBGYN logo">
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fb4a8b"/>
+      <stop offset="1" stop-color="#ff8567"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer ring -->
+  <circle cx="100" cy="100" r="92" stroke="url(#ring)" stroke-width="3" fill="#ffffff"/>
+  <!-- Inner arc accent -->
+  <path d="M40 100a60 60 0 0 1 120 0" stroke="#fb4a8b" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+  <!-- Monogram: stylised K with a blossom -->
+  <path d="M82 58v84M82 100l30-42M82 100l30 42" stroke="#51032a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Blossom accent above the K -->
+  <circle cx="118" cy="58" r="7" fill="#fb4a8b"/>
+  <circle cx="118" cy="58" r="3" fill="#fff1f6"/>
+</svg>
