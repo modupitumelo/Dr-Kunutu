@@ -14,7 +14,7 @@ export const practice = {
   // registered practice domain when it becomes available.
   domainEmail: 'info@[domain].co.za',
   // Active contact email used across the site today.
-  email: 'drtkunutu@gmail.com',
+  email: 'hello@drkunutu.co.za',
   phone: '068 695 5366',
   // E.164 for click-to-call / WhatsApp links
   phoneE164: '+27686955366',
