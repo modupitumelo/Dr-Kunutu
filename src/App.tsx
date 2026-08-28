@@ -30,10 +30,10 @@ function App() {
         <WhyChooseSection />
         <AboutSection />
         <PregnancySection />
-        <TrustSection />
+      
         <PatientInfoSection />
         <LocationSection />
-        <CtaSection />
+    
         <ContactSection />
       </main>
       <Footer />
